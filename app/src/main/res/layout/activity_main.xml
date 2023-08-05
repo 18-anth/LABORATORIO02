@@ -13,18 +13,60 @@
         android:id="@+id/group"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/buttonMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_width="258dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="92dp"
         android:layout_marginTop="30dp"
         android:background="#E91E63"
         android:text="Go Next"
         android:textColor="#fff"
+        android:textSize="84px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.323"
         tools:ignore="TextContrastCheck" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="257dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="92dp"
+        android:text="Switch"
+        android:textAlignment="center"
+        android:textSize="80px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="88dp"
+        android:text="CheckBox"
+        android:textAlignment="center"
+        android:textSize="80px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="249dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="92dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="80px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
